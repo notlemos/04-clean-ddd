@@ -1,8 +1,10 @@
 import { AnswerQuestionUseCase } from './answer-question'
 import { AnswerRepository } from '../repositories/answer-repository'
+import { Answer } from '../../enterprise/entities/answer'
 
 const fakeAnswersRepositor: AnswerRepository = {
-  create: async () => {},
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
+  create: async (answer: Answer) => {},
 }
 
 test('create an answer', async () => {
