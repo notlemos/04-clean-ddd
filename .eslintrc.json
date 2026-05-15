@@ -5,7 +5,7 @@
     ],
     "rules": {
         "no-useless-constructor": "off",
-        "@typescript-eslint/no-unsued-varis": "off"
+        "@typescript-eslint/no-unused-vars": "off"
     },
     "env": {
         "vitest-globals/env": true
